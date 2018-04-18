@@ -1,0 +1,1 @@
+./bin/spark-submit --driver-memory 16G --executor-memory 16G --jars ./lib/spark-streaming-kafka-assembly_2.10-1.6.1.jar /opt/work/kafka_line_count.py 10.11.0.94:2181/kafka  performance
